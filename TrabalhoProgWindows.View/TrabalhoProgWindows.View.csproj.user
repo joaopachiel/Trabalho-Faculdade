@@ -7,7 +7,27 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\WProduto.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\WProdutoInsumo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\WProdutoLista.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\WProduto.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\WProdutoInsumo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\WProdutoLista.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:TrabalhoProgWindows.View"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <StackPanel>
+        <Menu>
+            <MenuItem Header="_Cadastros">
+                <MenuItem Header="_Produtos" Command="{Binding CrudProduto}" />
+            </MenuItem>
+        </Menu>
+    </StackPanel>
 </Window>

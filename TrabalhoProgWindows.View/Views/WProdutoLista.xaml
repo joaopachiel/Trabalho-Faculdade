@@ -1,0 +1,24 @@
+﻿<Window x:Class="TrabalhoProgWindows.View.Views.WProdutoLista"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrabalhoProgWindows.View.Views"
+        mc:Ignorable="d"
+        Title="Lista de Produtos" Height="450" Width="800">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Right" Width="100" Margin="5">
+            <Button Command="{Binding Incluir}">Inserir</Button>
+            <Button Command="{Binding Consultar}">Consultar</Button>
+            <Button Command="{Binding Alterar}">Alterar</Button>
+            <Button Command="{Binding Excluir}">Excluir</Button>
+        </StackPanel>
+        <StackPanel>
+            <DataGrid ItemsSource="{Binding Lista}" SelectedItem="{Binding ObjetoSelecionado}" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Descricao}" Header="Descrição do Produto"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </DockPanel>
+</Window>

@@ -1520,6 +1520,35 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "TrabalhoProgWindows.Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10"
+        },
+        "compile": {
+          "bin/placeholder/TrabalhoProgWindows.Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TrabalhoProgWindows.Entidades.dll": {}
+        }
+      },
+      "TrabalhoProgWindows.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
+          "TrabalhoProgWindows.Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TrabalhoProgWindows.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TrabalhoProgWindows.Infra.dll": {}
+        }
       }
     }
   },
@@ -5788,13 +5817,25 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "TrabalhoProgWindows.Entidades/1.0.0": {
+      "type": "project",
+      "path": "../TrabalhoProgWindows.Entidades/TrabalhoProgWindows.Entidades.csproj",
+      "msbuildProject": "../TrabalhoProgWindows.Entidades/TrabalhoProgWindows.Entidades.csproj"
+    },
+    "TrabalhoProgWindows.Infra/1.0.0": {
+      "type": "project",
+      "path": "../TrabalhoProgWindows.Infra/TrabalhoProgWindows.Infra.csproj",
+      "msbuildProject": "../TrabalhoProgWindows.Infra/TrabalhoProgWindows.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore >= 5.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.10",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.10"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.10",
+      "TrabalhoProgWindows.Entidades >= 1.0.0",
+      "TrabalhoProgWindows.Infra >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5828,7 +5869,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\João Pedro\\source\\repos\\TrabalhoProgWindows\\TrabalhoProgWindows.Entidades\\TrabalhoProgWindows.Entidades.csproj": {
+              "projectPath": "C:\\Users\\João Pedro\\source\\repos\\TrabalhoProgWindows\\TrabalhoProgWindows.Entidades\\TrabalhoProgWindows.Entidades.csproj"
+            },
+            "C:\\Users\\João Pedro\\source\\repos\\TrabalhoProgWindows\\TrabalhoProgWindows.Infra\\TrabalhoProgWindows.Infra.csproj": {
+              "projectPath": "C:\\Users\\João Pedro\\source\\repos\\TrabalhoProgWindows\\TrabalhoProgWindows.Infra\\TrabalhoProgWindows.Infra.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

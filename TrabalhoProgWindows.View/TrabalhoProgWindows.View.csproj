@@ -15,4 +15,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TrabalhoProgWindows.Entidades\TrabalhoProgWindows.Entidades.csproj" />
+    <ProjectReference Include="..\TrabalhoProgWindows.Infra\TrabalhoProgWindows.Infra.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TrabalhoProgWindows.Entidades\TrabalhoProgWindows.Entidades.csproj" />
+    <ProjectReference Include="..\TrabalhoProgWindows.Infra\TrabalhoProgWindows.Infra.csproj" />
+    <ProjectReference Include="..\TrabalhoProgWindows.View\TrabalhoProgWindows.View.csproj" />
+  </ItemGroup>
+
 </Project>
