@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using TrabalhoProgWindows.Entidades.Entidades;
 using TrabalhoProgWindows.Entidades.Interfaces;
+using TrabalhoProgWindows.Entidades.Validacoes.Comum;
 
 namespace TrabalhoProgWindows.Entidades.Validacoes
 {

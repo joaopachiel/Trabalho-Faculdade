@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 using TrabalhoProgWindows.Entidades.Entidades;
 using TrabalhoProgWindows.Entidades.Interfaces;
 using TrabalhoProgWindows.Infra.Data;
+using System.Text;
 
 namespace TrabalhoProgWindows.Infra.DAO
 {

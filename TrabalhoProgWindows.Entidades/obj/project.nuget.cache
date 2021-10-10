@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0fFM83rP8TkAgSpNRx938dpb/Ax1JXo7JPWc/IrisT0Hf8b4gbMFnPgXmBgY8FBc3t7B/e530hIf4IsVIto84Q==",
+  "dgSpecHash": "95jJo3GAMWCFqVMA6Nz6zp8PXckXIlCdmpuJpkrOQL3IeGbWP8v6uUYgj0r/XmvrlNRBcAppwpFill6IvHToJw==",
   "success": true,
   "projectFilePath": "C:\\Users\\João Pedro\\source\\repos\\TrabalhoProgWindows\\TrabalhoProgWindows.Entidades\\TrabalhoProgWindows.Entidades.csproj",
   "expectedPackageFiles": [
@@ -100,8 +100,7 @@
     "C:\\Users\\João Pedro\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\João Pedro\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\João Pedro\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\João Pedro\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\João Pedro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+    "C:\\Users\\João Pedro\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

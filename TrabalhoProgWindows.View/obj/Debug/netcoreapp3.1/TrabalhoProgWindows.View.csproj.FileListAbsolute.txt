@@ -57,3 +57,13 @@ C:\Users\João Pedro\source\repos\TrabalhoProgWindows\TrabalhoProgWindows.View\b
 C:\Users\João Pedro\source\repos\TrabalhoProgWindows\TrabalhoProgWindows.View\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\João Pedro\source\repos\TrabalhoProgWindows\TrabalhoProgWindows.View\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\João Pedro\source\repos\TrabalhoProgWindows\TrabalhoProgWindows.View\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\João Pedro\source\repos\TrabalhoProgWindows\TrabalhoProgWindows.View\obj\Debug\netcoreapp3.1\Views\WProduto.g.cs
+C:\Users\João Pedro\source\repos\TrabalhoProgWindows\TrabalhoProgWindows.View\obj\Debug\netcoreapp3.1\Views\WProdutoInsumo.g.cs
+C:\Users\João Pedro\source\repos\TrabalhoProgWindows\TrabalhoProgWindows.View\obj\Debug\netcoreapp3.1\Views\WProdutoLista.g.cs
+C:\Users\João Pedro\source\repos\TrabalhoProgWindows\TrabalhoProgWindows.View\bin\Debug\netcoreapp3.1\TrabalhoProgWindows.Entidades.dll
+C:\Users\João Pedro\source\repos\TrabalhoProgWindows\TrabalhoProgWindows.View\bin\Debug\netcoreapp3.1\TrabalhoProgWindows.Infra.dll
+C:\Users\João Pedro\source\repos\TrabalhoProgWindows\TrabalhoProgWindows.View\bin\Debug\netcoreapp3.1\TrabalhoProgWindows.Entidades.pdb
+C:\Users\João Pedro\source\repos\TrabalhoProgWindows\TrabalhoProgWindows.View\bin\Debug\netcoreapp3.1\TrabalhoProgWindows.Infra.pdb
+C:\Users\João Pedro\source\repos\TrabalhoProgWindows\TrabalhoProgWindows.View\obj\Debug\netcoreapp3.1\Views\WProduto.baml
+C:\Users\João Pedro\source\repos\TrabalhoProgWindows\TrabalhoProgWindows.View\obj\Debug\netcoreapp3.1\Views\WProdutoInsumo.baml
+C:\Users\João Pedro\source\repos\TrabalhoProgWindows\TrabalhoProgWindows.View\obj\Debug\netcoreapp3.1\Views\WProdutoLista.baml
