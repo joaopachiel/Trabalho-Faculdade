@@ -7,10 +7,11 @@ using TrabalhoProgWindows.Entidades.Entidades;
 
 namespace TrabalhoProgWindows.Infra.Data
 {
-    class Contexto : DbContext
+    public class Contexto : DbContext
     {
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Produto>().HasMany(x => x.Insumos).WithOne().HasForeignKey(x => x.ProdutoId).OnDelete(DeleteBehavior.Cascade);
             modelBuilder.Entity<Produto>().Property(x => x.Id).ValueGeneratedOnAdd();
             modelBuilder.Entity<ProdutoInsumo>().Property(x => x.Id).ValueGeneratedOnAdd();
@@ -18,7 +19,7 @@ namespace TrabalhoProgWindows.Infra.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(RetornarStringConexao());
+            optionsBuilder.UseSqlServer(RetornarStringConexao(), b => b.MigrationsAssembly("TrabalhoProgWindows.Infra"));
         }
 
         private static string RetornarStringConexao()
