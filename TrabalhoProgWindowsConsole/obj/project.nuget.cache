@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7dyw4UXnbspnnJQltvbL27gpYzm5ipsOhk8ha8XtnQTQ/qac2njw5OA5dRKeM/kGwo2d3SkFZFwRdmLhqYvi7g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\João Pedro\\source\\repos\\TrabalhoProgWindows\\TrabalhoProgWindowsConsole\\TrabalhoProgWindowsConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\João Pedro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
